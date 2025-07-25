@@ -7,23 +7,23 @@ const Coaching = () => {
   const coachingSteps = [
     {
       number: "1",
-      title: "Ursachen analysieren",
-      description: "Woher kommt der Stress, die inneren Unruhen, Ängste und der Selbstzweifel. Wir untersuchen gemeinsam die Ursachen!"
+      title: "Familiendynamik verstehen",
+      description: "Wir analysieren gemeinsam die Herausforderungen im Familienalltag und verstehen die Bedürfnisse aller Beteiligten."
     },
     {
       number: "2", 
-      title: "Ziele definieren",
-      description: "Wir definieren gemeinsam Deine persönlichen Ziele und welche Gefühle Du dauerhaft verspüren möchtest!"
+      title: "Gemeinsame Ziele setzen",
+      description: "Eltern und Kinder entwickeln zusammen realistische Ziele für eine harmonischere Familienbeziehung."
     },
     {
       number: "3",
-      title: "An der Ursache arbeiten", 
-      description: "Wir gehen an die Ursache und bekämpfen nicht nur die Symptome. So verändern sich Deine Gefühle und Dein Leben nicht nur temporär, sondern für immer!"
+      title: "Altersgerechte Methoden", 
+      description: "Mit spielerischen und altersgerechten Coaching- und Hypnosetechniken arbeiten wir an nachhaltigen Lösungen."
     },
     {
       number: "4",
-      title: "Neues Lebensgefühl",
-      description: "Du genießt ein neues Lebensgefühl, welches Dein dauerhafter Begleiter sein wird, Dir zu mehr Erfolg sowie Erfüllung im Business und privaten Bereich verhelfen wird!"
+      title: "Stärkere Familienbindung",
+      description: "Die Familie entwickelt neue Kommunikationswege und ein tieferes Verständnis füreinander, was zu dauerhafter Harmonie führt."
     }
   ];
 
@@ -56,19 +56,18 @@ const Coaching = () => {
   ];
 
   const themenschwerpunkte = [
-    "Stress/Druck/Burnout",
-    "Ängste (u.a. Flugangst, Prüfungsangst, Angst vor dem Tod/vor Krankheiten, Höhenangst)",
-    "Vergangenheit",
-    "Partnerschaft", 
-    "Unerfüllter Kinderwunsch",
-    "Krankheiten/Schmerzen",
-    "Migräne",
-    "Negative Glaubensätze/Blockaden",
-    "Selbstzweifel/Selbstbewusstsein/Selbstwert/Selbstliebe",
-    "Raucherentwöhnung",
-    "Abnehmen",
-    "Süchte",
-    "Schlafstörungen"
+    "Schulängste und Prüfungsstress",
+    "Selbstbewusstsein und Selbstwert stärken",
+    "Kommunikation zwischen Eltern und Kindern",
+    "Verhaltensauffälligkeiten",
+    "Schlafstörungen bei Kindern",
+    "Konzentrationsschwierigkeiten",
+    "Familienkonflikte lösen",
+    "Trennungsängste",
+    "Mobbing und soziale Ängste",
+    "Geschwisterrivalität",
+    "Trotzphasen meistern",
+    "Emotionsregulation lernen"
   ];
 
   const scrollToSection = (sectionId: string) => {
@@ -81,17 +80,25 @@ const Coaching = () => {
   return (
     <section id="coaching" className="py-24 bg-background">
       <div className="container mx-auto px-4">
+        {/* Header */}
+        <div className="text-center mb-16">
+          <h2 className="text-4xl font-bold text-primary mb-6">
+            Hypnose und Coaching für Kinder mit Eltern
+          </h2>
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            Spezielle Coaching- und Hypnoseangebote für Kinder und Jugendliche in Begleitung ihrer Eltern. 
+            Gemeinsam stärken wir das Familienverständnis und lösen Herausforderungen im Familienalltag.
+          </p>
+        </div>
+
         {/* Coaching Method */}
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-24">
           <div>
-            <h2 className="text-4xl font-bold text-primary mb-6">
-              Hypnose und Coaching
-            </h2>
-            <h3 className="text-2xl font-semibold text-blue-700 mb-6">Die Methode</h3>
+            <h3 className="text-2xl font-semibold text-blue-700 mb-6">Die Methode für Familien</h3>
             
             <p className="text-lg text-muted-foreground mb-8">
-              Ein individuelles Hypnose- und Coaching-Programm verspricht eine hohe Erfolgsgarantie.
-              Binnen kurzer Zeit entstehen ungeahnte Ergebnisse durch die Kombination beider Methoden.
+              Ein individuelles Familien-Coaching-Programm, das Kinder und Eltern gemeinsam stärkt.
+              Durch altersgerechte Methoden entstehen nachhaltige Veränderungen für die ganze Familie.
             </p>
 
             <h4 className="text-xl font-semibold text-primary mb-6">Vorgehensweise:</h4>
@@ -167,44 +174,6 @@ const Coaching = () => {
           </div>
         </div>
 
-        {/* Group Coaching Section */}
-        <div className="mt-24">
-          <h3 className="text-3xl font-bold text-primary mb-8 text-center">
-            Coaching für Gruppen / Teams
-          </h3>
-          
-          <Card className="p-8 shadow-medium">
-            <div className="text-center max-w-4xl mx-auto">
-              <p className="text-lg text-muted-foreground mb-6">
-                Ich biete auch sehr gern Coaching für Gruppen und Teams an.
-              </p>
-              
-              <p className="text-muted-foreground mb-6">
-                Coaching in Gruppen bietet eine unterstützende Umgebung, in der Teilnehmer 
-                mentale Stärke und Selbstbewusstsein entwickeln können.
-              </p>
-              
-              <p className="text-muted-foreground mb-6">
-                Durch gezielte Coaching Techniken werden Themen wie Stressbewältigung, 
-                Zielfokussierung und emotionale Intelligenz angesprochen.
-              </p>
-              
-              <p className="text-muted-foreground mb-8">
-                Die Gruppendynamik ermöglicht den Austausch von Erfahrungen und gegenseitiger 
-                Unterstützung. Coaching in Gruppen kann dazu beitragen, die individuelle 
-                Resilienz zu steigern und positive Veränderungen im Denken und Handeln zu fördern.
-              </p>
-              
-              <Button 
-                variant="blue" 
-                size="lg"
-                onClick={() => scrollToSection('kontakt')}
-              >
-                Gruppencoaching anfragen
-              </Button>
-            </div>
-          </Card>
-        </div>
       </div>
     </section>
   );
