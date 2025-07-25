@@ -85,13 +85,13 @@ const Coaching = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-24">
           <div>
             <h2 className="text-4xl font-bold text-primary mb-6">
-              1:1 Mental / Hypnose Coaching
+              Hypnose und Coaching
             </h2>
             <h3 className="text-2xl font-semibold text-blue-700 mb-6">Die Methode</h3>
             
             <p className="text-lg text-muted-foreground mb-8">
-              Ein individuelles Mental und Hypnose Coaching verspricht eine hohe Erfolgsgarantie.
-              Binnen kurzer Zeit entstehen ungeahnte Ergebnisse.
+              Ein individuelles Hypnose- und Coaching-Programm verspricht eine hohe Erfolgsgarantie.
+              Binnen kurzer Zeit entstehen ungeahnte Ergebnisse durch die Kombination beider Methoden.
             </p>
 
             <h4 className="text-xl font-semibold text-primary mb-6">Vorgehensweise:</h4>

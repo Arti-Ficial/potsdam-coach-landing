@@ -36,22 +36,34 @@ All colors MUST be HSL.
     --input: 215 27% 87%;
     --ring: 215 28% 17%;
 
-    /* Custom blue theme colors */
-    --blue-50: 214 100% 97%;
-    --blue-100: 214 95% 93%;
-    --blue-200: 213 97% 87%;
-    --blue-300: 212 96% 78%;
-    --blue-400: 213 94% 68%;
-    --blue-500: 217 91% 60%;
-    --blue-600: 221 83% 53%;
-    --blue-700: 224 76% 48%;
-    --blue-800: 226 71% 40%;
-    --blue-900: 224 64% 33%;
+    /* Color palette based on provided German colors */
+    /* Himmelblau (Sky Blue) */
+    --himmelblau: 201 72% 83%;
+    /* Rauchblau (Smoke Blue) */
+    --rauchblau: 201 10% 55%;
+    /* Türkisblau (Turquoise Blue) */
+    --tuerkisblau: 185 60% 65%;
+    /* Jeansblau (Jeans Blue) */
+    --jeansblau: 215 25% 45%;
+    /* Ultramarin (Ultramarine) */
+    --ultramarin: 228 45% 35%;
 
-    /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(var(--blue-600)), hsl(var(--blue-700)));
-    --gradient-secondary: linear-gradient(135deg, hsl(var(--blue-100)), hsl(var(--blue-200)));
-    --gradient-hero: linear-gradient(135deg, hsl(var(--blue-600) / 0.9), hsl(var(--blue-700) / 0.9));
+    /* Updated blue scale using the new palette */
+    --blue-50: 201 72% 95%;
+    --blue-100: 201 72% 90%;
+    --blue-200: 201 72% 83%; /* Himmelblau */
+    --blue-300: 185 60% 75%;
+    --blue-400: 185 60% 65%; /* Türkisblau */
+    --blue-500: 215 25% 55%;
+    --blue-600: 215 25% 45%; /* Jeansblau */
+    --blue-700: 228 45% 40%;
+    --blue-800: 228 45% 35%; /* Ultramarin */
+    --blue-900: 228 45% 25%;
+
+    /* Gradients using new color palette */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--jeansblau)), hsl(var(--ultramarin)));
+    --gradient-secondary: linear-gradient(135deg, hsl(var(--himmelblau)), hsl(var(--tuerkisblau)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--jeansblau) / 0.9), hsl(var(--ultramarin) / 0.9));
 
     /* Shadows */
     --shadow-soft: 0 4px 6px -1px hsl(var(--blue-600) / 0.1);

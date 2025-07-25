@@ -173,45 +173,6 @@ const Hypnosis = () => {
           </div>
         </div>
 
-        {/* Resilienz Coaching Section */}
-        <div className="mt-24">
-          <Card className="p-8 shadow-medium bg-white">
-            <h3 className="text-3xl font-bold text-primary mb-6 text-center">
-              Resilienz Coaching / Training
-            </h3>
-            
-            <div className="max-w-4xl mx-auto text-center">
-              <p className="text-lg text-muted-foreground mb-6">
-                Durch meine Ausbildung zum Resilienz Coach, weiß ich, wie wertvoll dieses Thema 
-                für die Menschen und die Gesellschaft geworden ist.
-              </p>
-              
-              <p className="text-muted-foreground mb-6">
-                Resiliente Menschen sind einfach zufriedener und können mit Herausforderungen 
-                viel besser umgehen.
-              </p>
-              
-              <p className="text-muted-foreground mb-6">
-                Das Resilienz Coaching/Training in 1:1 Coachings oder Gruppen zielt darauf ab, 
-                die psychische Widerstandsfähigkeit zu stärken.
-              </p>
-              
-              <p className="text-muted-foreground mb-8">
-                Durch Techniken und gezielte Übungen werden Menschen befähigt, besser mit Stress, 
-                Herausforderungen und Veränderungen umzugehen. Dies kann die emotionale Stabilität 
-                und die Fähigkeit zur Anpassung verbessern.
-              </p>
-              
-              <Button 
-                variant="hero" 
-                size="lg"
-                onClick={() => scrollToSection('kontakt')}
-              >
-                Resilienz Training anfragen
-              </Button>
-            </div>
-          </Card>
-        </div>
       </div>
     </section>
   );

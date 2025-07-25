@@ -61,25 +61,6 @@ const Testimonials = () => {
           ))}
         </div>
 
-        {/* Stats or additional info */}
-        <div className="mt-16 text-center">
-          <Card className="max-w-2xl mx-auto p-8 bg-gradient-secondary shadow-medium">
-            <div className="grid grid-cols-3 gap-8">
-              <div>
-                <div className="text-3xl font-bold text-blue-600 mb-2">100%</div>
-                <div className="text-sm text-muted-foreground">Zufriedenheitsrate</div>
-              </div>
-              <div>
-                <div className="text-3xl font-bold text-blue-600 mb-2">10+</div>
-                <div className="text-sm text-muted-foreground">Jahre Erfahrung</div>
-              </div>
-              <div>
-                <div className="text-3xl font-bold text-blue-600 mb-2">500+</div>
-                <div className="text-sm text-muted-foreground">Erfolgreiche Sitzungen</div>
-              </div>
-            </div>
-          </Card>
-        </div>
       </div>
     </section>
   );
