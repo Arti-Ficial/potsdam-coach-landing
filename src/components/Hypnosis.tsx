@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Brain, Heart, Shield, Target } from "lucide-react";
-import hypnosisSession from "@/assets/hypnosis-session.jpg";
+import familyCoachingSession from "@/assets/family-coaching-session.jpg";
 
 const Hypnosis = () => {
   const benefits = [
@@ -111,8 +111,8 @@ const Hypnosis = () => {
           <div>
             <Card className="overflow-hidden shadow-large">
               <img 
-                src={hypnosisSession} 
-                alt="Professionelle Hypnosesitzung"
+                src={familyCoachingSession} 
+                alt="Familien-Coaching Sitzung - Vertrauen und Unterstützung"
                 className="w-full h-auto object-cover"
               />
             </Card>
