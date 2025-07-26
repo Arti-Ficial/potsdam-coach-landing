@@ -6,7 +6,7 @@ const QuoteBottom = () => {
       <div className="container mx-auto px-4">
         <Card className="max-w-4xl mx-auto p-8 text-center shadow-large bg-white/90 backdrop-blur-sm">
           <blockquote className="text-2xl md:text-3xl font-light text-primary italic leading-relaxed mb-6">
-            "Bevor ."
+            "Bevor ein Kind Schwierigkeiten macht, hat es welche."
           </blockquote>
           <cite className="text-lg text-muted-foreground">
             — Alfred Adler
