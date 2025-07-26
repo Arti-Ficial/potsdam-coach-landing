@@ -1,7 +1,7 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Quote from "@/components/Quote";
-import QuoteBottom from "@/components/QuoteBottom";
+
 import Possibilities from "@/components/Possibilities";
 import About from "@/components/About";
 import Coaching from "@/components/Coaching";
@@ -23,7 +23,6 @@ const Index = () => {
       <Hypnosis />
       <GroupCoaching />
       <Testimonials />
-      <QuoteBottom />
       <Contact />
       <Footer />
     </div>

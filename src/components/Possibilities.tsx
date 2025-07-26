@@ -22,7 +22,7 @@ const Possibilities = () => {
   };
 
   return (
-    <section id="moeglichkeiten" className="py-24 bg-gradient-secondary">
+    <section id="moeglichkeiten" className="py-24 bg-gradient-secondary mb-16">
       <div className="container mx-auto px-4">
         <div className="bg-gradient-secondary rounded-lg p-8">
           <h3 className="text-3xl font-bold text-primary mb-8 text-center">Was ist für mich möglich</h3>
