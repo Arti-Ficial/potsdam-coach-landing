@@ -6,6 +6,7 @@ import Possibilities from "@/components/Possibilities";
 import About from "@/components/About";
 import Coaching from "@/components/Coaching";
 import Hypnosis from "@/components/Hypnosis";
+import FamilyCoaching from "@/components/FamilyCoaching";
 import GroupCoaching from "@/components/GroupCoaching";
 import Testimonials from "@/components/Testimonials";
 import Contact from "@/components/Contact";
@@ -21,6 +22,7 @@ const Index = () => {
       <Coaching />
       <Possibilities />
       <Hypnosis />
+      <FamilyCoaching />
       <GroupCoaching />
       <Testimonials />
       <QuoteBottom />
