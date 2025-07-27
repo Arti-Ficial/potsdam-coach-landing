@@ -89,16 +89,6 @@ const About = () => {
             </div>
           </div>
         </div>
-
-        {/* Quote Section */}
-        <div className="mt-24 text-center">
-          <Card className="max-w-4xl mx-auto p-8 bg-gradient-secondary shadow-medium">
-            <blockquote className="text-2xl md:text-3xl font-semibold text-primary italic mb-4">
-              "Die größte Entscheidung deines Lebens liegt darin, dass du dein Leben 
-              ändern kannst, indem du deine Geisteshaltung änderst."
-            </blockquote>
-            <cite className="text-lg text-muted-foreground">— Albert Einstein</cite>
-          </Card>
         </div>
       </div>
     </section>
