@@ -21,11 +21,11 @@ const Index = () => {
       <About />
       <Coaching />
       <Possibilities />
+      <QuoteBottom />
       <Hypnosis />
       <FamilyCoaching />
       <GroupCoaching />
       <Testimonials />
-      <QuoteBottom />
       <Contact />
       <Footer />
     </div>
