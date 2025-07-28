@@ -11,6 +11,7 @@ import GroupCoaching from "@/components/GroupCoaching";
 import Testimonials from "@/components/Testimonials";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import Separator from "@/components/Separator";
 
 const Index = () => {
   return (
@@ -23,6 +24,7 @@ const Index = () => {
       <Possibilities />
       <QuoteBottom />
       <Hypnosis />
+      <Separator />
       <FamilyCoaching />
       <GroupCoaching />
       <Testimonials />
