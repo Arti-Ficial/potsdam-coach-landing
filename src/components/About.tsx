@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import coachPortrait from "@/assets/coach-portrait.jpg";
+import coachPortrait from "@/assets/coach-portrait-new.jpg";
 
 const About = () => {
   const scrollToSection = (sectionId: string) => {
